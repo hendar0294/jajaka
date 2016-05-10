@@ -1,0 +1,270 @@
+.navbar-default{
+  background-image: none;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.style-bottom{
+  border-bottom: 3px solid #33726c;
+  margin-bottom: 20px;
+}
+
+.title h1{
+  color: #83d0c9;
+  text-shadow: 1px 1px 2px #000000; 
+  font-family: 'Californian FB';
+  font-size: 65px;
+}
+
+.navbar-default .navbar-collapse a{
+  color: #83d0c9;
+  border-bottom: 3px solid #fff;
+}
+.navbar-default .navbar-collapse a:hover{
+  color: #83d0c9;
+  border-bottom: 3px solid #83d0c9;
+}
+
+.actived{
+  color: #83d0c9;
+  border-bottom: 3px solid #83d0c9;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;  
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.copyright{
+  background-color: #33726c;
+  color: #fff;
+}
+
+/*responsive video*/
+.video{
+  width: 840px !important;
+  height: 420px;
+  background-color: blue;
+  margin: auto;
+}
+
+.video-wrap{
+  margin-top: 20px;
+  padding: 20px;
+  border:2px solid grey;
+  border-radius: 10px;
+
+  /*PATTERN*/
+  background:
+  radial-gradient(#1b4a46 15%, transparent 16%) 0 0,
+  radial-gradient(#1b4a46 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#33726c;
+  background-size:16px 16px;
+}
+
+.c-second{
+  background-color: #83d0c9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*IMG*/
+.img {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin: auto;
+  background-color: rgba(131,208,201,.3);
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,.5);
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,.5);
+  -ms-box-shadow: 0 0 5px rgba(0,0,0,.5);
+  -o-box-shadow: 0 0 5px rgba(0,0,0,.5);
+  box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+.img img{
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  margin: 5px;
+  background-color: #83d0c9;
+  margin-bottom: 10px;
+}
+
+.img p{
+  border-radius: 100%;
+  background-color: rgba(0,0,0,.3);
+  width: 150px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 3.5em;
+  padding-top: 50%;
+  color: #fff;
+  height: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  opacity: 0;
+  z-index: 99999999999;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;  
+}
+
+.img:hover p{
+  opacity: 1;
+}
+
+/*END*/
+
+.clear{
+  clear: both;
+}
+
+.member{
+  margin: auto;
+}
+
+/*ABOUT*/
+
+.about{
+  background-color: #83d0c9;
+  padding: 20px;
+}
+
+.medsos{
+  list-style: none;
+  display: inline-block;
+  margin: auto;
+}
+.medsos li{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.medsos  img{
+ width: 100px;
+}
+
+@media (min-width: @screen-md-min) {
+  .medsos img {
+    width: 50px;
+  }
+}
+
+/*PORTOFOLIO*/
+.img-portofolio{
+  width: 100%;
+  height: 180px;
+  background-color: blue;
+}
+
+.deskripsi-detail{
+  margin-bottom: 20px;
+}
+
+.about-us{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.header-title{
+  background-color: #83d0c9;
+  padding: 10px;
+}
+
+/*EMAIL*/
+.style-email a{
+  color: #000;
+}
+
+.style-email a:hover{
+  color: #83d0c9;
+  text-decoration: none;
+}
+
+.delapan{
+  /*border-radius: 10px;*/
+  height: 225px;
+  margin-top: 25px;
+  position: relative;
+  overflow: hidden;
+  padding: 5px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,.3);
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,.3);
+  -ms-box-shadow: 0 0 5px rgba(0,0,0,.3);
+  -o-box-shadow: 0 0 5px rgba(0,0,0,.3);
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
+}
+
+.deskripsi img{
+  width: 100%;
+  height: 100%;
+}
+
+.delapan p{
+  height: 50px;
+  padding-top: 10px;
+}
+.delapan p{
+  font-family: arial;
+  background-color: rgba(0,0,0,.3);
+  width: 100%;
+  padding: 5px 0px;
+  text-align: center;
+  color: white;
+  height: 50px;
+  position: absolute;
+  bottom: -40px;
+  left: 0px;
+  opacity: 0;
+  z-index: 99999999999;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.delapan:hover p{
+  opacity: 1;
+  bottom: -10px;
+  left: 0px;
+}
+
+/*form login*/
+
+.form-login{
+  border: .5px solid gray;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+  margin: 10px;
+  padding: 20px;
+  margin-bottom: 26px;
+}
+
+/*dasboard*/
+.user{
+  margin-bottom: 10px;
+  padding: 2px;
+  background-color: gray;
+}
+
+.btn-option{
+  margin-bottom: 10px;
+  width: 100%;
+}

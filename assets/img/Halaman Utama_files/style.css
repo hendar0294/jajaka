@@ -1,0 +1,63 @@
+.m-header, .footer{
+  background-color: #ec7d1b;
+  padding: 15px;
+}
+
+.m-header img, .footer img{
+  width: 150px;
+}
+
+.m-navbar, .copyright{
+  background-color: #ca2a26;
+}
+
+.navbar-default{
+  background-image: none;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.input-group-addon{
+    background-color: #820504;
+    border: 3px solid #820504;
+    color: #fff;
+}
+
+.copyright h6{
+  color: #fff;
+}
+
+/*CSS FOR CAROUSEL*/
+.carousel-control.left{
+  background-image: none;
+}
+
+.carousel-control.left>a:hover{
+  color: red;
+}
+
+.carousel-control.right{
+  background-image: none;
+}
+
+.carousel-control{
+  color: #000;
+}
+
+.carousel-control>a:hover{
+  color: red;
+}
+/*end css carousel*/
+
+/*galeri video*/
+.galeri-video{
+  background-color: #ca2a26;
+  padding: 10px;
+  width: 300px;
+}
+/*end galeri video*/
